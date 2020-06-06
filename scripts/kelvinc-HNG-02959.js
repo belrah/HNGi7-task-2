@@ -1,11 +1,5 @@
-let intern = {
-    firstName: "Kelvin",
-    lastName: "O Chibuikem",
-    myEmail: "chigbatachibuike@gmail.com",
-    myinternshipId: "HNG-02959",
-    myStageTwoTask: function() {
-      return (`Hello world, this is ${this.firstName} ${this.lastName} with HNGi7 ID ${this.myinternshipId} and email ${this.myEmail} using JavaScript for stage 2 task.`)
-      }
-  };
-  
-  console.log(intern.myStageTwoTask());
+var name = 'Kelvin Chibuikem';
+var email = 'chigbatachibuike@gmail.com';
+var id = 'HNG-02959';
+var language = 'JavaScript';
+console.log("Hello World, this is " + name + " with HNGi7 ID " + id + " and email " + email + " using " + language + " for stage 2 task");
